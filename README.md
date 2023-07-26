@@ -9,4 +9,5 @@ Depois do jogador perder, o programa encerra.
 
 Portado para a ZX Spectrum com Z88DK
 
-![Captura de ecrã 2023-07-26 013940](https://github.com/brunu97/CSnakeSimplesSDL2/assets/16547439/d64f390d-7f77-4bdc-8d05-707017f1fcc1)
+
+![3333](https://github.com/brunu97/CSnakeSimplesSDL2/assets/16547439/828ba7d8-d114-4358-af84-9050d327d472)
