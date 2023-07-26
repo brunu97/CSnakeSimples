@@ -177,10 +177,10 @@ int main()
 			{
 				printc(jogador.snake[i].x, jogador.snake[i].y, '*');
 			}
-			printc(jogador.snake[0].x, jogador.snake[0].y, 'X');
+			printc(jogador.snake[0].x, jogador.snake[0].y, 'O');
 
 			// Desenha o Fruto
-			printc(jogador.frutaX, jogador.frutaY, 'O');
+			printc(jogador.frutaX, jogador.frutaY, '+');
 		}
 	}
 
