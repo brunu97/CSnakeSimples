@@ -1,6 +1,10 @@
 #include <SDL.h>
 #include <stdio.h>
 #include <time.h>
+#include <math.h>
+
+#define ECRA_ALTURA 400   
+#define ECRA_COMPRIMENTO 600
 
 struct Parte
 {
@@ -51,9 +55,9 @@ int detetaColisao(struct Jogador *jogador)
 	}
 
 	// Verifica se saiu fora do ecrã
-	if (!(jogador->snake[0].x < 600 &&
+	if (!(jogador->snake[0].x < ECRA_COMPRIMENTO &&
 		  jogador->snake[0].x + 20 > 0 &&
-		  jogador->snake[0].y < 400 &&
+		  jogador->snake[0].y < ECRA_ALTURA &&
 		  jogador->snake[0].y + 20 > 0))
 		return 1;
 
@@ -72,7 +76,7 @@ int detetaColisao(struct Jogador *jogador)
 int main(int argc, char *args[])
 {
 	SDL_Init(SDL_INIT_EVERYTHING);
-	SDL_Window *window = SDL_CreateWindow("SnakeSimplesSDL2", SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, 600, 400, SDL_WINDOW_SHOWN);
+	SDL_Window *window = SDL_CreateWindow("SnakeSimplesSDL2", SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, ECRA_COMPRIMENTO, ECRA_ALTURA, SDL_WINDOW_SHOWN);
 	SDL_Renderer *render = SDL_CreateRenderer(window, -1, SDL_RENDERER_ACCELERATED | SDL_RENDERER_PRESENTVSYNC);
 	SDL_RaiseWindow(window);
 	srand(time(NULL));
