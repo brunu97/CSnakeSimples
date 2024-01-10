@@ -9,5 +9,10 @@ Depois do jogador perder, o programa encerra.
 
 Portado para a ZX Spectrum com Z88DK
 
-
 ![3333](https://github.com/brunu97/CSnakeSimplesSDL2/assets/16547439/828ba7d8-d114-4358-af84-9050d327d472)
+
+# CSnakeSimplesVita
+
+Port do Snake Simples feito em C utilizando SDL2 para a Playsation Vita utilizando VitaSDK.
+
+Depois do jogador perder, o programa encerra.
