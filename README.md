@@ -15,4 +15,6 @@ Portado para a ZX Spectrum com Z88DK
 
 Port do Snake Simples feito em C utilizando SDL2 para a Playsation Vita utilizando VitaSDK.
 
+![20240110_104116](https://github.com/brunu97/CSnakeSimples/assets/16547439/76806388-a8ab-43e6-93fa-971ce155c92d)
+
 Depois do jogador perder, o programa encerra.
